@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.7.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:white;stroke:#EC2426;stroke-width:10;stroke-miterlimit:10;}
+	.st0 {
+		stroke-dasharray: 590;
+		stroke-dashoffset: 0;
+	}
+
+	.st0:hover {
+		animation: animate-heart 2s linear forwards;
+	}
+
+	@keyframes animate-heart {
+		0% {
+			stroke-dashoffset:0;
+		}
+		40% {
+			stroke-dashoffset: 590;
+		}
+		80% {
+			stroke-dashoffset: 1180;
+			fill: transparent;
+		}
+		100% {
+			stroke-dashoffset: 1180;
+			fill: #EC2426;
+		}
+	}
+
+</style>
+
+<script>
+      // select the path element directly
+      let thePath = document.querySelector('.st0');
+
+      // functions always go in the middle
+      function logMyId() {        
+        console.log("heart");
+      }
+
+      // event handling at the bottom
+      document.addEventListener('click', logMyId);
+    </script>
+<path class="st0" d="M396.9,224.2c0,14-5.4,28.1-16.1,38.8l-3.2,3.2L300,343.9l-77.6-77.6l-3.2-3.2c-10.7-10.7-16.1-24.8-16.1-38.8
+	c-1.6-49.3,65.5-74.4,96.9-35.6C331.4,149.8,398.5,174.9,396.9,224.2z"/>
+</svg>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
+<style type="text/css">
+	.st0{
+	fill:#4970B6;
+	transition: filter 0.3s ease;
+	}
+	.st1{fill:#FFFFFF;}
+
+
+	.st0:hover {
+      filter: drop-shadow(0 0 10px #4970B6) drop-shadow(0 0 20px #4970B6) drop-shadow(0 0 30px #4970B6);
+    }
+
+</style>
+<script>
+      // select the path element directly
+      let thePath = document.querySelector('.st0');
+
+      // functions always go in the middle
+      function logMyId() {        
+        console.log("facebook");
+      }
+
+      // event handling at the bottom
+      document.addEventListener('click', logMyId);
+    </script>
+<path class="st0" d="M321.32,358.54H173.83c-24.04,0-43.53-19.49-43.53-43.53V167.53c0-24.04,19.49-43.53,43.53-43.53h147.48
+	c24.04,0,43.53,19.49,43.53,43.53v147.48C364.84,339.05,345.35,358.54,321.32,358.54z"/>
+<g>
+	<g>
+		<path class="st1" d="M221.19,249.5v-21.96h65.5v21.96H221.19z M235.07,358.54v-148.8c0-11.53,2.65-20.19,7.95-26
+			s13.55-8.71,24.74-8.71h18.93v24.48h-18.43c-2.61,0-4.5,0.99-5.68,2.97c-1.18,1.98-1.77,4.31-1.77,7v149.05H235.07z"/>
+	</g>
+</g>
+</svg>

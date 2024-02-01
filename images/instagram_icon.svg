@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);
+	transition: filter 0.3s ease;
+	}
+	 #Layer_1 {
+    margin-top: -30px;
+  }
+	.st0:hover {
+      filter: drop-shadow(0 0 10px #DA3B95) drop-shadow(0 0 20px #DA3B95) drop-shadow(0 0 30px #DA3B95);
+    }
+	.st1{fill:none;stroke:#FFFFFF;stroke-width:10;stroke-miterlimit:10;}
+</style>
+<script>
+      // select the path element directly
+      let thePath = document.querySelector('.st0');
+
+      // functions always go in the middle
+      function logMyId() {        
+        console.log("instagram");
+      }
+
+      // event handling at the bottom
+      document.addEventListener('click', logMyId);
+    </script>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="275.5421" y1="172.3048" x2="325.1486" y2="427.5081">
+	<stop  offset="0" style="stop-color:#43AEE3"/>
+	<stop  offset="3.833867e-07" style="stop-color:#489DD7"/>
+	<stop  offset="0.2296" style="stop-color:#C13794"/>
+	<stop  offset="0.5915" style="stop-color:#DA3B95"/>
+	<stop  offset="0.7241" style="stop-color:#E33C96"/>
+	<stop  offset="1" style="stop-color:#833E98"/>
+</linearGradient>
+<path class="st0" d="M374.09,417.17H226.6c-24.04,0-43.53-19.49-43.53-43.53V226.17c0-24.04,19.49-43.53,43.53-43.53h147.48
+	c24.04,0,43.53,19.49,43.53,43.53v147.48C417.61,397.69,398.12,417.17,374.09,417.17z"/>
+<path class="st1" d="M354.68,369.06H245.32c-10.73,0-19.42-8.7-19.42-19.42v-99.28c0-10.73,8.7-19.42,19.42-19.42h109.35
+	c10.73,0,19.42,8.7,19.42,19.42v99.28C374.1,360.37,365.4,369.06,354.68,369.06z"/>
+<circle class="st1" cx="300" cy="299.91" r="26.26"/>
+<circle class="st1" cx="336.05" cy="261.87" r="2.43"/>
+</svg>

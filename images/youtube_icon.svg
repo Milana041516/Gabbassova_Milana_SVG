@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#ED2024;
+	transition: filter 0.3s ease;
+	}
+  #Layer_1 {
+    margin-top: -15px;
+  }
+
+	.st0:hover {
+      filter: drop-shadow(0 0 10px #ED2024) drop-shadow(0 0 20px #ED2024) drop-shadow(0 0 30px #ED2024);
+    }
+	.st1{fill:#FFFFFF;}
+</style>
+
+<script>
+      // select the path element directly
+      let thePath = document.querySelector('.st0');
+
+      // functions always go in the middle
+      function logMyId() {        
+        console.log("youtube");
+      }
+
+      // event handling at the bottom
+      document.addEventListener('click', logMyId);
+    </script>
+<path class="st0" d="M347.64,381.71H200.15c-24.04,0-43.53-19.49-43.53-43.53V190.71c0-24.04,19.49-43.53,43.53-43.53h147.48
+	c24.04,0,43.53,19.49,43.53,43.53v147.48C391.16,362.23,371.68,381.71,347.64,381.71z"/>
+<path class="st1" d="M340.08,307.12H207.71c-8.15,0-14.75-6.6-14.75-14.75v-55.85c0-8.15,6.6-14.75,14.75-14.75h132.37
+	c8.15,0,14.75,6.6,14.75,14.75v55.85C354.83,300.52,348.23,307.12,340.08,307.12z"/>
+<polygon class="st0" points="300,264.45 281.83,274.93 263.67,285.42 263.67,264.45 263.67,243.47 281.83,253.96 "/>
+</svg>
