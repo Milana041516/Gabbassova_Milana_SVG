@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#F7EC13;stroke-width:10;stroke-miterlimit:10;}
+
+	.st0 {
+		stroke-dasharray: 730;
+		stroke-dashoffset: 0;
+	}
+
+	.st0:hover {
+		animation: animate-star 2s linear forwards;
+	}
+
+	@keyframes animate-star {
+		0% {
+			stroke-dashoffset:0;
+		}
+		40% {
+			stroke-dashoffset: 730;
+		}
+		80% {
+			stroke-dashoffset: 1460;
+			fill: transparent;
+		}
+		100% {
+			stroke-dashoffset: 1460;
+			fill: #F7EC13;
+		}
+	}
+
+</style>
+
+<script>
+      // select the path element directly
+      let thePath = document.querySelector('.st0');
+
+      // functions always go in the middle
+      function logMyId() {        
+        console.log("star");
+      }
+
+      // event handling at the bottom
+      document.addEventListener('click', logMyId);
+    </script>
+<polygon class="st0" points="288.58,153.04 316.63,209.87 379.34,218.98 333.96,263.21 344.67,325.67 288.58,296.18 232.49,325.67 
+	243.21,263.21 197.83,218.98 260.54,209.87 "/>
+</svg>
